@@ -6,12 +6,10 @@ Juan Esteban Mera Mera
 Anyi Katherine Sánchez Yasnó
 
 Principios SOLID violados :
-1. Principio de Abstracción (Uso de Interfaces)	
-2. Principio de Inversión de Dependencias	
-3. Principio de Responsabilidad Única	
-4. Principio de Sustitución de Liskov	
-5. Principio de Segregación de Interfaces	
-6. Principio de Composición sobre Herencia
+1. Principio de Inversión de Dependencias	
+2. Principio de Responsabilidad Única	
+3. Principio de Sustitución de Liskov	
+4. Principio de Segregación de Interfaces	
 
 En qué parte se ve la flexibilidad:
 Repositorios: El hecho de que CompanyArraysRepository y CompanySqliteRepository implementen la misma interfaz ICompanyRepository permite que se cambien entre sí sin necesidad de modificar otras partes del código que dependan del repositorio.
